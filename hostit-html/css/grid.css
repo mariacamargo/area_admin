@@ -1,0 +1,24 @@
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse; /* Combina as bordas das células */
+    width: 100%;  /* Define a largura da tabela como 100% da largura do contêiner */
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 8px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+}
+
+/* Estilo para as células da tabela */
+td {
+    border: 1px solid #ddd; /* Borda de todas as células */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilo para as linhas alternadas */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
